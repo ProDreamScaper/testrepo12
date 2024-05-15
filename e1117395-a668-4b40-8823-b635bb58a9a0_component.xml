@@ -1,0 +1,136 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
+    <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="10">
+        <item name="CustomUsing" type_name="gh_bool" type_code="1">true</item>
+        <item name="Description" type_name="gh_string" type_code="10">A C#.NET scriptable component</item>
+        <item name="EditorPosition" type_name="gh_drawing_point" type_code="30">
+          <X>14</X>
+          <Y>57</Y>
+        </item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e1117395-a668-4b40-8823-b635bb58a9a0</item>
+        <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
+        <item name="NickName" type_name="gh_string" type_code="10">C# current_filename</item>
+        <item name="OutParameter" type_name="gh_bool" type_code="1">true</item>
+        <item name="ReferenceCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="ScriptSource" type_name="gh_string" type_code="10">    var filename_only = System.IO.Path.GetFileName(GrasshopperDocument.FilePath);
+    file__name = filename_only;</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>566</X>
+              <Y>-126</Y>
+              <W>133</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>621</X>
+              <Y>-104</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="5">
+            <item name="InputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">2</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+            <item name="OutputId" index="1" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+          </items>
+          <chunks count="3">
+            <chunk name="InputParam" index="0">
+              <items count="10">
+                <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
+                <item name="Description" type_name="gh_string" type_code="10">Script Variable reload</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">a831ea4b-608b-46c2-8e44-fe20f2deb3e6</item>
+                <item name="Name" type_name="gh_string" type_code="10">reload</item>
+                <item name="NickName" type_name="gh_string" type_code="10">reload</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
+                <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">44867149-6268-4cd9-8538-fa98afc4ab91</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>568</X>
+                      <Y>-124</Y>
+                      <W>38</W>
+                      <H>40</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>588.5</X>
+                      <Y>-104</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="0">
+              <items count="7">
+                <item name="Access" type_name="gh_int32" type_code="3">1</item>
+                <item name="Description" type_name="gh_string" type_code="10">Print, Reflect and Error streams</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">b77996c5-c902-4660-a356-8d61f5c63dc2</item>
+                <item name="Name" type_name="gh_string" type_code="10">out</item>
+                <item name="NickName" type_name="gh_string" type_code="10">out</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>636</X>
+                      <Y>-124</Y>
+                      <W>61</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>666.5</X>
+                      <Y>-114</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="1">
+              <items count="6">
+                <item name="Description" type_name="gh_string" type_code="10">Output parameter file__name</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">cf909f45-5aec-40cd-9c9a-4fd237a62034</item>
+                <item name="Name" type_name="gh_string" type_code="10">file__name</item>
+                <item name="NickName" type_name="gh_string" type_code="10">file__name</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>636</X>
+                      <Y>-104</Y>
+                      <W>61</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>666.5</X>
+                      <Y>-94</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

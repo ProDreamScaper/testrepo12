@@ -1,0 +1,335 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">b2d64fc5-3f97-4000-a6d3-e8ad2513a1a0</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">5f86fa9f-c62b-50e8-157b-b454ef3e00fa</item>
+    <item name="Name" type_name="gh_string" type_code="10">Create/Modify Layers</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Create and Modify Rhino Layers</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8eefd9ad-23eb-45d9-9e0f-9ea6397ce317</item>
+        <item name="Name" type_name="gh_string" type_code="10">Create/Modify Layers</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Layers</item>
+        <item name="enableFullPath" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="11">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>903</X>
+              <Y>-369</Y>
+              <W>79</W>
+              <H>164</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>943</X>
+              <Y>-287</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Layer to add or modify</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">013cfa5d-f5f2-4a62-87bf-fedc4359552c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Name</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-367</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-357</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="2">
+                        <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                        <item name="string" type_name="gh_string" type_code="10">Layer_for_export_milestone</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Layer's display color</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e024eb07-1089-4e2a-b7a3-a80b68dd5336</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Color</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-347</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-337</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The name of the layer's linetype. A list of available linetypes can be retrieved with the Linetype Table component.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">40345d88-7487-4d60-b802-841778e220a3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Linetype</item>
+            <item name="NickName" type_name="gh_string" type_code="10">LT</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-327</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-317</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The name of the layer's render material. Leave as an empty string for the default material.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d8305732-2fe0-440f-8ab1-8ba2f5618575</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Material</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-307</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-297</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">True if the layer is visible.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ba3c4e8b-93a2-49c2-828b-6050b0446f53</item>
+            <item name="Name" type_name="gh_string" type_code="10">Visibility</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-287</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-277</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Layer Print Width. 0.0 = Default</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9859e32e-2328-4c53-9ed3-91c12273e7df</item>
+            <item name="Name" type_name="gh_string" type_code="10">Print Width</item>
+            <item name="NickName" type_name="gh_string" type_code="10">PW</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-267</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-257</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="6">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Layer print color.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f291c4a5-1949-442c-8802-846d3e390169</item>
+            <item name="Name" type_name="gh_string" type_code="10">Print Color</item>
+            <item name="NickName" type_name="gh_string" type_code="10">PC</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-247</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-237</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="7">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Set to true to delete the layer</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1af887a8-ab8b-4500-89a4-2bbe5aff3d1c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Delete Layer</item>
+            <item name="NickName" type_name="gh_string" type_code="10">D</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>905</X>
+                  <Y>-227</Y>
+                  <W>23</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>918</X>
+                  <Y>-217</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">false</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">On success, the name of the created/modified layer.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">62749d05-56f7-44be-b315-93072e2c6573</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Names</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>958</X>
+                  <Y>-367</Y>
+                  <W>22</W>
+                  <H>80</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>969</X>
+                  <Y>-327</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">On success, the full path of the created/modified layer.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">858fa2c3-8498-4813-a64b-d34338b863f0</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer Full Path</item>
+            <item name="NickName" type_name="gh_string" type_code="10">FP</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>958</X>
+                  <Y>-287</Y>
+                  <W>22</W>
+                  <H>80</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>969</X>
+                  <Y>-247</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

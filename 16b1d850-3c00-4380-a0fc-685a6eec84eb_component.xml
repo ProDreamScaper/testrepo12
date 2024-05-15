@@ -1,0 +1,162 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">954414d0-ae21-4efe-a776-c7637ac24f84</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d2580c41-5c48-4997-87c5-b6333b5e21d7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Save String To File</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Saves a text sequence to a file</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">16b1d850-3c00-4380-a0fc-685a6eec84eb</item>
+        <item name="Name" type_name="gh_string" type_code="10">Save String To File</item>
+        <item name="NickName" type_name="gh_string" type_code="10">f_Str2File</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1313</X>
+              <Y>-443</Y>
+              <W>44</W>
+              <H>84</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1343</X>
+              <Y>-401</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">String to save (as List)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">27a5ec85-0f93-49fa-bbf2-f2789da1a50b</item>
+            <item name="Name" type_name="gh_string" type_code="10">String</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">0562a114-ad3b-424f-8cac-88f746f2a83e</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1315</X>
+                  <Y>-441</Y>
+                  <W>13</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1323</X>
+                  <Y>-431</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">File absolute path</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2109da54-84a1-46de-b1f0-b6d28df5a69d</item>
+            <item name="Name" type_name="gh_string" type_code="10">File Path</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">e18b9e32-3b90-4b87-9502-a90186223a97</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1315</X>
+                  <Y>-421</Y>
+                  <W>13</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1323</X>
+                  <Y>-411</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Filename and extension</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">167ae124-38b3-4b01-9146-627f8d0c8bcd</item>
+            <item name="Name" type_name="gh_string" type_code="10">File Name</item>
+            <item name="NickName" type_name="gh_string" type_code="10">F</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">f1c6d800-82f0-4114-89f7-8e1a15901df6</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1315</X>
+                  <Y>-401</Y>
+                  <W>13</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1323</X>
+                  <Y>-391</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Activate saving - attach a button and click to save</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5b4ab000-2c4c-41b8-9221-e6aa579d3216</item>
+            <item name="Name" type_name="gh_string" type_code="10">Save trigger</item>
+            <item name="NickName" type_name="gh_string" type_code="10">s</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">16378293-b7e2-426b-bd7e-bffe4f346857</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1315</X>
+                  <Y>-381</Y>
+                  <W>13</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1323</X>
+                  <Y>-371</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">false</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

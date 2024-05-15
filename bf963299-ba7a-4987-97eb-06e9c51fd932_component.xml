@@ -1,0 +1,63 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">aced9701-8be9-4860-bc37-7e22622afff4</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">9bde5adf-1aa6-414c-a1d4-8832edea1934</item>
+    <item name="Name" type_name="gh_string" type_code="10">Bifocals</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="ClearState" type_name="gh_bool" type_code="1">true</item>
+        <item name="Description" type_name="gh_string" type_code="10">Add floating labels to all components, with a few exceptions. Double-click to activate/deactivate, see right click menu for options.</item>
+        <item name="ExceptionsState" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">bf963299-ba7a-4987-97eb-06e9c51fd932</item>
+        <item name="Name" type_name="gh_string" type_code="10">Bifocals</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Bifocals</item>
+        <item name="isActive" type_name="gh_bool" type_code="1">true</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>253</X>
+              <Y>57</Y>
+              <W>44</W>
+              <H>28</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>283</X>
+              <Y>71</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">List of component names to exclude</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2a65a778-3c38-408b-8240-81ce173e9ea8</item>
+            <item name="Name" type_name="gh_string" type_code="10">Exceptions</item>
+            <item name="NickName" type_name="gh_string" type_code="10">E</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>255</X>
+                  <Y>59</Y>
+                  <W>13</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>263</X>
+                  <Y>71</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
